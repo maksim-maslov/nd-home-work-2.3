@@ -1,0 +1,29 @@
+{
+  "name": "nd-home-work-2.3",
+  "version": "1.0.0",
+  "description": "routing in express",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksim-maslov/nd-home-work-2.3.git"
+  },
+  "keywords": [
+    "a",
+    "b",
+    "c"
+  ],
+  "author": "mm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksim-maslov/nd-home-work-2.3/issues"
+  },
+  "homepage": "https://github.com/maksim-maslov/nd-home-work-2.3#readme"
+}

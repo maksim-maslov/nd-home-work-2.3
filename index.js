@@ -4,6 +4,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
+let port = process.env.PORT || 3000;
+
 app.use(bodyParser.json());
 
 app.use('/post', (req, res, next) => {
@@ -37,4 +39,4 @@ app.post('/post', (req, res) => {
   }  
 });
 
-app.listen(3000, () => console.log('App started on 3000 port'));
+app.listen(port, () => console.log(`App started on ${port} port`));
